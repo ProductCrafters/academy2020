@@ -3,6 +3,8 @@ import { Card } from 'react-bootstrap'
 
 class Stateful extends Component {
   render() {
+    console.log(this.props)
+
     return (
       <Card style={{ width: '18rem',  marginTop: 10 }}>
         <Card.Body>

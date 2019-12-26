@@ -1,7 +1,8 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 
-function Func() {
+function Func(props) {
+  console.log(props)
   return (
     <Card style={{ width: '18rem', marginTop: 10 }}>
       <Card.Body>
