@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
+import Button from 'react-bootstrap/Button'
 
 function App() {
   return (
@@ -18,9 +19,10 @@ function App() {
         >
           Learn React
         </a>
+        <Button onClick={() => console.log('test')}>Button</Button>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
